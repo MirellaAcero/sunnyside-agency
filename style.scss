@@ -331,7 +331,14 @@ section.home{
     }
 }
 
-
+@media only screen and (device-width : 414px) and (device-height : 896px) and (-webkit-device-pixel-ratio : 2) { 
+    .project {
+        height: 414px;
+    }
+    .project .col-6 {
+        height: 207px;
+    }
+}
 
 @media (max-width: 952px){
     .enlace{
